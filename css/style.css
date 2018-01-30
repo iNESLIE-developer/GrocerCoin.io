@@ -1,0 +1,333 @@
+html,body,header,#intro {height: 100%;}
+body{overflow-x: hidden;}
+
+@font-face {font-family: lato_light;src: url(../font/lato/Lato-Light.ttf);}
+@font-face {font-family: lato_regular;src: url(../font/lato/Lato-Regular.ttf);}
+@font-face {font-family: lato_italic;src: url(../font/lato/Lato-Italic.ttf);}
+@font-face {font-family: lato_bold;src: url(../font/lato/Lato-Bold.ttf);}
+@font-face {font-family: lato_thin;src: url(../font/lato/Lato-Thin.ttf);}
+
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-thumb:window-inactive{background:#888}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);-webkit-border-radius:10px;border-radius:10px}
+::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.5);-webkit-border-radius:10px;border-radius:10px;background:#f15a2b}
+
+.lato-light{font-family: "lato_light", sans-serif !important;}
+.lato-regular{font-family: "lato_regular", sans-serif !important;}
+.lato-italic{font-family: "lato_italic", sans-serif !important;}
+.lato-bold{font-family: "lato_bold", sans-serif !important;}
+.lato-thin{font-family: "lato_thin", sans-serif !important;}
+
+
+/*==== CUSTOM ====*/
+h1{position: absolute !important;}
+.top-nav-collapse {background-color: #fff !important;}
+.top-nav-collapse .nav-item a{color: #444 !important;}
+.navbar{box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;}
+.agricoin .navbar{background-color: #fff;}
+.navbar-nav .nav-item a{padding: 8px 12px !important; font:normal 13px "Roboto", "Helvetica", "Arial", sans-serif; border-bottom:1px solid transparent; color: #444 !important;}
+.navbar-nav .nav-item a:hover{color: #f15a2b !important;}
+
+.nav-social-links{font-size: 16px; color: #fff;}
+.nav-social-links .nav-item a{position: relative; top: 6px; right: 16px; background-color: #999;border-radius: 3px;padding: 2px 4px !important;color: #fff !important;}
+.nav-social-links .nav-item a i{position: relative;top: 1px;}
+.nav-social-links .nav-item a:hover{background-color: #4267b2; border-bottom: 1px solid transparent;color: #fff !important;}
+.nav-social-links .nav-item a:hover i{color: #fff !important}
+
+.navbar.navbar-dark .navbar-toggler-icon{filter: invert(100%) !important;}
+.navbar-brand img{max-height: 30px;}
+
+.default-font{font-family: "Helvetica", "Arial", sans-serif;}
+.obj-center{display: table;margin: 0 auto;}
+.default-color-orange{color: #f15a2b;}
+.section-title{font: normal 32px/32.2px "lato-bold", sans-serif !important;}
+
+
+
+/*--- DIVISIONS ---*/
+#why_grocercoin{position: fixed;margin-top: 15px;}
+#our_ico{position: fixed;margin-top: 65px;}
+#roadmap{position: fixed;margin-top: -20px;}
+#the_team{position: fixed;margin-top: 70px;}
+
+
+
+/*--- 1st section ---*/
+.full-height,
+.full-height body,
+.full-height header,
+.full-height header .view {height: 500px;}
+#jarallax-container-0, .view .full-bg-img{height: 500px !important;}
+#demo-canvas{width: 100% !important; height: 500px !important;}
+
+.main-left{margin-top: 50px;max-width: 410px;}
+.main-right{display: inline-block;margin-top: 50px; width: 100% !important;}
+
+
+
+/*--- Other Pages ---*/
+.header-sub{background-color: #b7d38e; height: auto !important;width: 100%;}
+.main-sub, .body-sub{background-color: #b7d38e;}
+.main-sub{min-height: 700px;}
+
+.par-title{font-size: 18px;}
+.sub-list-a li{
+    list-style: lower-roman;
+    width: 100%;
+
+}
+
+#intro {
+    background: url("img/banner-bg-1600x500.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.dl-whitepaper{
+    background-color: #fff;
+    margin-top: 55px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    color: #f15a2b;
+}
+
+a.dl-whitepaper{
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 55px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    font:normal 16px "lato-regular", sans-serif;
+    color: #f15a2b;
+}
+
+.package{position: relative;right: -12px; float: right;display: inline-block;max-width: 385px;margin-top: 0px;}
+.package-name{display: block;margin-bottom: 10px;font:normal 41px "lato_light", sans-serif;}
+
+.sold-progress{height: 10px !important;margin-bottom: 10px;}
+.sold-text{font-size: 18px;}
+.sold-progress .progress-bar{background-color: #f15a2b !important;height: 10px !important;}
+
+.buy-token{background-color: #f15a2b;border:none;border-radius: 4px;color: #fff;width: 100%;max-width: 360px;font:normal 30px "lato-regular", sans-serif;padding: 15px 8px;margin-top: 5px;}
+
+
+/*---- COUNTDOWN ----*/
+.agri-countdown{display: inline-block;padding: 10px 0;margin-top: 0px;}
+.agri-countdown .title{display: block;text-align:right;font: normal 20px "Roboto", "Helvetica", "Arial", sans-serif;color: #fff;}
+.agri-countdown .c-time{float: right;background-color: transparent;height: 80px;width: 80px;border-radius: 6px;text-align: center;margin-left: 15px;}
+.agri-countdown .c-time span{display: block;padding:0px;font: normal 50px "lato_regular", "Helvetica", sans-serif;color: #fff;}
+.agri-countdown .c-time label{text-transform: capitalize;font: normal 14px "lato_regular", "Helvetica", sans-serif;color: #fff;}
+
+
+.dl-whitepaper:hover{background-color: #efefef;}
+.buy-token:hover{filter: brightness(110%);}
+
+
+/*--- UPDATES ---*/
+.update-soon{float: right;width: 360px;}
+.update-soon-main{display: block;font: normal 28px "lato-regular", sans-serif;font-size: 28px;}
+.update-soon-sub{display: block;font: normal 18px "lato-light", sans-serif;font-size: 18px;}
+
+/*--- INSIGHTS ---*/
+.iframe-box{display: block;background-color: #000;height:300px;width: 540px;}
+
+
+/*--- WHY AGRI ----*/
+
+
+/*--- INVESTOR ---*/
+.invest-p-1{background-color: #2b450e;}
+.invest-p-2{background-color: #598527;}
+.invest-p-2 ul{padding: 0;margin: 0;}
+.invest-p-2 ul li{list-style: none;width: 100%;margin-bottom: 20px;font-size: 14px;}
+.invest-p-2 ul li i.fa{position: relative;top: -2px; float: left;font-size: 24px;}
+.invest-p-2 ul li span{position: relative; display: block;margin-left: 40px;}
+
+
+.iframe-1{display: inline-block; width: 100%;}
+/*.iframe-1 iframe{float: right;}*/
+.iframe-1 iframe{float: right;}
+
+/*--- TOKEN SALE ---*/
+.token-list li{list-style: none;width: 100%;margin-bottom: 5px;}
+.token-list li label{font: bold 14px "lato-regular", sans-serif;color: #444;}
+.token-list li span{font: normal 14px "lato-regular", sans-serif;color: #444;}
+
+.multi-lang-dl{color:#f15a2b;}
+.multi-lang-dl:hover{filter:brightness(140%);color:#f15a2b;}
+
+
+.sec-our-ico{background-color: #b7d38e;}
+.pack-cont{
+    width: 100%; display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.package-list{display: inline-block; width: 100%;max-width: 150px;margin-bottom: 15px;}
+.package-list ul li{
+    box-sizing: border-box;
+    padding: 15px;
+    border:1px solid #b7d38e;
+    border-top: none;
+    list-style: none;
+    min-height: 40px;
+    width: 100%;
+    text-align: center;
+    font:normal 18px "lato_bold", "Helvetica", sans-serif;
+}
+
+canvas#pieChart{display: table;margin:0 auto;height: 350px !important;width: 350px !important;}
+
+.pack-1 ul li:first-child{background-color: #b7d38e;border-radius: 4px 4px 0 0; border:1px solid #b7d38e;font-size: 50px;line-height: 32px; color: #fff;}
+.pack-2 ul li:first-child{background-color: #f95428;border-radius: 4px 4px 0 0; border:1px solid #f95428;font-size: 50px;line-height: 32px; color: #fff;}
+.pack-3 ul li:first-child{background-color: #486c1f;border-radius: 4px 4px 0 0; border:1px solid #486c1f;font-size: 50px;line-height: 32px; color: #fff;}
+.package-list ul li:last-child{border-radius: 0 0 4px 4px;}
+
+.round-title{font-size: 12px;}
+/*.rd-title-sub-text{font-size: 12px;}*/
+.rd-sub-text{font-size: 12px;}
+.rd-color-1{color: #b7d38e;}
+.rd-color-2{color: #f95428;}
+.rd-color-3{color: #888;}
+
+
+/*--- carousel ---*/
+#rounds_control{
+    position: relative;
+}
+
+.r-control-left, .r-control-right{
+    position: absolute;
+    top: 150px;
+    font-size: 70px;
+}
+
+.r-control-left{left: -100px;}
+.r-control-right{right: -70px;}
+
+
+/*--- ROAD MAP ---*/
+.sec-roadmap{background-color: #598527;min-height: 400px;}
+.step-content{padding: 12px !important;}
+
+/*--- TEAM SECTION ---*/
+.section.team-section .avatar .rounded-circle{max-width: 120px;}
+.team-section .btn-small{border-radius: 4px;height: 36px;width: 36px;}
+.team-section .btn-small .fa{font-size: 16px;line-height: 36px;}
+
+.team-section h5{font-size: 16px;}
+.team-section h6{font-size: 14px;}
+
+/*--- ADVISORS ---*/
+#advisors{background-color: #b7d38e;}
+
+/*--- PRESS ---*/
+#press .p-box{background-color: #ddd;height: 200px;width: 200px;}
+.footer-buy-token{background-color: #598527;}
+
+/*--- FOOTER ---*/
+footer{background-color: #252525;color: #fff;}
+footer img{max-width: 200px;}
+footer span{font-size: 12px;color: #ddd;}
+footer ul li{float: left;list-style: none;padding: 4px 15px;font: normal 14px "lato-regular", sans-serif; ;color: #ddd;cursor: pointer;}
+footer ul li:hover{color: #f15a2b;}
+
+
+/*--- COPYRIGHTS ---*/
+.copyrights{
+    background-color: #212121;
+    width: 100%;
+    padding: 15px 0px;
+    font:normal 12px "Roboto", sans-serif !important;
+    color: #888;
+}
+.copyrights a{padding: 0px 10px;color: #888;}
+.copyrights a:hover{color: #ddd;}
+
+
+
+
+/*==== RESPONSIVE BEHAVIOR ====*/
+
+/*--- EXTRA LARGE ---*/
+@media (min-width: 1200px){
+    .container {padding-right: 15px;padding-left: 15px;width: 950px;max-width: 100%;}
+}
+
+/*--- LARGE ---*/
+@media (min-width: 992px){
+    .main-right.col-lg-6 {-webkit-box-flex: 0;-webkit-flex: 0 0 55%;-ms-flex: 0 0 55%;flex: 0 0 55%;max-width: 100%;}
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .navbar-brand img{margin-left: 12px;}
+    .nav-social-links .nav-item a{right: -12px;margin-bottom: 15px;}
+
+    .dl-whitepaper{margin-top: 20px;}
+
+    .main-left{display: table;margin: 0 auto;}
+    .main-right{display: inline-block;}
+    .package{float: none; display: table;left: 0px; margin: 0 auto; margin-top: 40px;}
+    .agri-countdown{float: none;display: table;margin: 0 auto;width: auto;}
+    .agri-countdown .c-time{margin-left: 0px;margin-right: 10px;}
+    .agri-countdown .buy-token.float-right{margin-left: 10px;}
+
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {height: 800px;}
+    #jarallax-container-0, .view .full-bg-img{height: 800px !important;}
+    #demo-canvas{width: 100% !important; height: 800px !important;}
+
+    .iframe-1 {width: 100%;}
+    .iframe-1 iframe{float: none; display: table;margin: 0 auto;width: 533px;}
+}
+
+
+/*--- MEDIUM ---*/
+@media only screen and (max-width: 768px){
+    .main-right.col-lg-6 {-webkit-box-flex: 0;-webkit-flex: 0 0 100%;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+
+
+    footer ul li{font-size: 10px;padding: 4px 6px;}
+
+    .insight_section.streak-md{height: 400px !important;}
+    .insight_section iframe{width: 100% !important;}
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .iframe-1 iframe{float: none; display: table;margin: 0 auto;width: 100%;}
+
+    #press .p-box{display: table;margin: 0 auto;width: 100%; height: 250px;}
+    #press .p-box-cont{margin-bottom: 15px !important;}
+    footer ul.d-table{display: none !important;}
+}
+
+
+
+
+
+
+
+
+
+
